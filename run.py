@@ -101,34 +101,3 @@ for x in all_file:
     print(f"{file} : {z}")
     copy_da(x,z,store)
     file+=1
-
-
-# https://gist.github.com/JCloudYu/66616fbc15e64e7bf941f4bf80bd4173
-# https://www.iana.org/assignments/media-types/media-types.xhtml
-
-# application/font-sfnt -- ttf
-# application/msword  -- doc
-# application/octet-stream -- lha
-# application/pdf -- pdf
-# application/vnd.ms-powerpoint -- ppt
-# application/vnd.openxmlformats-officedocument.presentationml.presentation -- pptx
-# application/vnd.openxmlformats-officedocument.spreadsheetml.sheet  -- xlsx
-# application/vnd.openxmlformats-officedocument.wordprocessingml.document -- docx
-# application/x-gzip  -- gz
-# application/x-sqlite3 -- dont'know
-# application/x-tar -- tar 
-# application/zip -- zip 
-# audio/mpeg  -- mp3
-# audio/ogg -- oga
-# audio/x-hx-aac-adts -- don't know
-# audio/x-m4a -- don't know
-# image/jpeg -- jpg
-# image/png -- png
-# image/tiff -- tiff
-# image/webp -- webp
-# inode/x-empty -- don't know
-# text/plain -- log
-# text/vcard -- vcf
-# text/xml -- xml
-# video/mp4 -- mp4
-# video/quicktime -- mov
